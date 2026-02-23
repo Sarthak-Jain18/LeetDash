@@ -228,8 +228,8 @@ export default function LeetCodeDash() {
                                                     <td className="px-6 py-4 text-center font-semibold">
                                                         <span className={isPositive ? "text-green-400" : "text-red-400"}>
                                                             {Math.round(data.prevRating)} → {Math.round(data.rating)}
-                                                            ({isPositive ? "+" : ""}
-                                                            {Math.round(data.ratingChange)})
+                                                            {" "}
+                                                            ({isPositive ? "+" : ""}{Math.round(data.ratingChange)})
                                                         </span>
                                                     </td>
                                                 </tr>
